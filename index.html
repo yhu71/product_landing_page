@@ -32,17 +32,23 @@
       flex: auto;}
 
     header{
+      position: fixed;
+      top: 0;
       display: flex;
       justify-content: space-between;
       margin-bottom:30px;
+      background-color: white
     }
 
     #header-img{
+      top: 0;
       height : 40px;
     }
 
     .nav-link{
-      padding: 10px;
+      top: 0;
+      margin: 50px;
+      padding: 20px;
       text-decoration: none;
     }
 
@@ -67,8 +73,12 @@
       text-align:center;
     }
 
+    @media(max-width: 450px) {
+      body {
+        font-size: 75%;
+      }
+    }
   </style>
-
 </head>
 
 <body>
